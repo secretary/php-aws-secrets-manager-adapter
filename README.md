@@ -1,8 +1,19 @@
-# Secretary - Secrets Manager for PHP
+# Secretary - AWS Secrets Manager Adapter
 
-Secrets are an important aspect of most applications you can build. How you store them, and keep them "secret" is a challenge.
-Luckily, there are tools you can use to keep them all safe. 
+AWS Secrets Manager Adapter for [Secretary](https://github.com/secretary/php)
 
-Secretary is a tool to integrate your PHP application with these tools.
+## Table of Contents
 
-To get started, view the [documentation](https://github.com/secretary/php/tree/master/src/Core)
+1. [Installation](#installation)
+2. [Options](#options)
+
+### Installation
+
+```bash
+$ composer require secretary/core secretary/aws-secrets-manager-adapter
+```
+
+### Options
+
+Options passed to this adapter can be found [on the AWS PHP SDK docs](https://docs.aws.amazon.com/aws-sdk-php/v3/api/class-Aws.AwsClient.html#___construct).
+
